@@ -44,7 +44,10 @@ const Landing = () => {
         </div>
         <div className="bg-slate-900/20 backdrop-blur-[3px] backdrop-grayscale p-3 m-10 w-fit ">
           <p className="font-black text-6xl">
-            DON'T DO PAIN. <br /> DO YOU.
+            MY NECK. <br /> 
+            MY BACK. <br />
+            MY CHIROPRACTOR. <br />
+            FIXED WITH CRACK.
           </p>
           <p className="pt-5">
             Whether you are seeking relief from everyday aches and pains or looking to maintain a healthy, active life, we can help.
