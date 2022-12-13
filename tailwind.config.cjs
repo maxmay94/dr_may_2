@@ -9,8 +9,8 @@ module.exports = {
       fontFamily: {
       },
       backgroundImage: {
-        'happy-people-temp' : "url('public/images/happy_people_temp.jpeg')",
-        'x-ray-temp' : "url('public/images/x-ray_film_temp.jpeg')",
+        'happy-people-temp' : "url('src/assets/happy_people_temp.jpeg')",
+        'x-ray-temp' : "url('src/assets/x-ray_film_temp.jpeg')",
       }
     },
   },
