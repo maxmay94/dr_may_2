@@ -5,12 +5,12 @@ const NavBar = () => {
         <nav className="">
           <ul className="flex flex-row">
 
-            <li className="grow m-2 font-unna font-bold text-2xl text-teal-900">
+            <li className="grow m-2 font-light text-2xl text-teal-900">
               <p>
                 Dr. Peter May
               </p>
-              <p className="text-xs">
-                Church Street Chirporactic
+              <p className="text-xs ">
+                Church Street Chiropractic
               </p>
             </li>
 
