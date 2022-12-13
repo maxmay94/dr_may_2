@@ -11,6 +11,7 @@ module.exports = {
       },
       backgroundImage: {
         'happy-people-temp' : "url('src/images/happy_people_temp.jpeg')",
+        'x-ray-temp' : "url('src/images/x-ray_film_temp.jpeg')",
       }
     },
   },
