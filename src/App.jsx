@@ -1,8 +1,14 @@
+import NavBar from './components/navBar/NavBar'
+import Landing from './pages/Landing/Landing'
+import Footer from './components/footer/Footer'
+
 function App() {
   return (
-    <div className="text-red-400 text-3xl mx-auto">
-      some shit
-    </div>
+    <>
+      <NavBar />
+      <Landing />
+      <Footer />
+    </>
   )
 }
 
