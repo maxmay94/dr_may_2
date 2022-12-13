@@ -8,6 +8,9 @@ module.exports = {
     extend: {
       fontFamily: {
         unna: ['Unna-bold', 'serif']
+      },
+      backgroundImage: {
+        'happy-people-temp' : "url('src/images/happy_people_temp.jpeg')",
       }
     },
   },

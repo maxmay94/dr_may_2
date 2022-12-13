@@ -1,19 +1,23 @@
 const Landing = () => {
   return (
-    <main className="relative w-screen h-full">
-      <div className="lg:w-2/3 mx-auto">
-
-        <div className="relative">
-          <img className="saturate-[.8]" src="src/images/happy_people_temp.jpeg" alt="happy_people_temp" />
-          <div className="absolute bottom-1">
-            <p className="font-bold text-3xl rounded-xl backdrop-blur-[3px] bg-slate-900/30 p-3">
-              Tired of back pain  and <br /> some other stuff <br /> ruining you <br /> life  all the time?
-            </p>
-          </div>
+    <div className="absolute top-[64px]">
+      <div className="bg-fixed bg-top bg-happy-people-temp w-screen h-screen saturation-[100px]">
+        <div className="h-[1px]">
         </div>
-
+        <div className="bg-slate-900/20 backdrop-blur-[3px] p-3 m-10 w-fit">
+          <p className="font-black lg:text-6xl md:text-5xl sm:text-4xl text-3xl mt">
+            DON'T DO PAIN. <br /> DO YOU.
+          </p>
+        </div>
       </div>
-    </main>
+      <div className="bg-slate-900 h-screen w-screen ">
+        <div className="h-[1px]">
+        </div>
+        <div className="text-6xl font-black font-sans-serif m-10">
+          This is a sentence about some stuff!
+        </div>
+      </div>
+    </div>
   )
 }
 
