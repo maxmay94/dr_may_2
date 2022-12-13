@@ -8,10 +8,13 @@ const Landing = () => {
         </div>
         <div className="bg-slate-900/60 backdrop-blur-[3px] backdrop-grayscale p-3 m-10 w-fit contrast-200">
           <p className="font-black text-6xl">
-            DON'T DO PAIN. <br /> DO YOU.
+            DON'T LET <br /> 
+            PAIN CONTROL <br /> 
+            YOUR LIFE.
           </p>
-          <p className="pt-5">
-            Whether you are seeking relief from everyday aches and pains or looking to maintain a healthy, active life, we can help.
+          <p className="pt-5 font-bold">
+            Whether you are seeking relief from everyday aches and pains <br />
+            or looking to maintain a healthy, active life, we can help.
           </p>
         </div>
       </div>
@@ -56,7 +59,7 @@ const Landing = () => {
       
 
       {/* ----- TESITMONAL? ----- */}
-      <div className=" bg-fixed bg-[url('public/images/x-ray_film_temp.jpeg')] h-screen w-screen pt-[64px]">
+      <div className="bg-[url('public/images/x-ray_film_temp.jpeg')] bg-fixed bg-cover h-screen w-screen pt-[64px]">
       {/* <div className=" bg-fixed bg-cover bg-x-ray-temp h-screen w-screen pt-[64px]"> */}
         <div className="h-[1px]">
         </div>
