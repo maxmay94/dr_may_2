@@ -44,7 +44,7 @@ const Landing = () => {
             instruction, and advice on how to improve your overall health.
           </p>
           <img 
-            src="src/images/office_cover_photo.jpeg" 
+            src="/images/office_cover_photo.jpeg" 
             alt="office_photo" 
             className="lg:px-10"  
           />
@@ -72,7 +72,8 @@ const Landing = () => {
             <div className="px-3">
               <img
                 className="rounded-full md:h-40 h-24"
-                src="src/images/peter_may.jpeg" 
+                // src="https://imgur.com/lhMRqZA" 
+                src="/images/peter_may.jpeg" 
                 alt="peter_may" 
               />
           </div>
@@ -100,7 +101,7 @@ const Landing = () => {
           <div className="flex">
             <img 
               className="rounded-full mr-5 w-20 h-20 drop-shadow" 
-              src="/src/images/question.jpeg" 
+              src="/images/question.jpeg" 
               alt="question" />
             <div className="bg-red-900 text-gray-300 m-1 my-auto p-2 drop-shadow rounded">
               Are you taking new patients? And how far out are you booking?
@@ -114,7 +115,7 @@ const Landing = () => {
             </div>
             <img 
               className="rounded-full ml-5 w-20 h-20 drop-shadow" 
-              src="/src/images/dad_headshot.jpeg" 
+              src="/images/dad_headshot.jpeg" 
               alt="dr_peter_may"/>
           </div>
           <br />
@@ -123,7 +124,7 @@ const Landing = () => {
           <div className="flex">
             <img 
               className="rounded-full mr-5 w-20 h-20 drop-shadow" 
-              src="/src/images/question.jpeg" 
+              src="/images/question.jpeg" 
               alt="question" />
             <div className="bg-red-900 text-gray-300 m-1 my-auto p-2 drop-shadow rounded">
               Do you take my health insurance?
@@ -146,7 +147,7 @@ const Landing = () => {
             </div>
             <img 
               className="rounded-full ml-5 w-20 h-20 drop-shadow" 
-              src="/src/images/dad_headshot.jpeg" 
+              src="/images/dad_headshot.jpeg" 
               alt="dr_peter_may"/>
           </div>
           <br />
@@ -155,7 +156,7 @@ const Landing = () => {
           <div className="flex">
             <img 
               className="rounded-full mr-5 w-20 h-20 drop-shadow" 
-              src="/src/images/question.jpeg" 
+              src="/images/question.jpeg" 
               alt="question" />
             <div className="bg-red-900 text-gray-300 m-1 my-auto p-2 drop-shadow rounded">
               How much is a visit?
@@ -172,7 +173,7 @@ const Landing = () => {
             </div>
             <img 
               className="rounded-full ml-5 w-20 h-20 drop-shadow" 
-              src="/src/images/dad_headshot.jpeg" 
+              src="/images/dad_headshot.jpeg" 
               alt="dr_peter_may"/>
           </div>
           <div className="flex mt-2">
@@ -187,7 +188,7 @@ const Landing = () => {
             </div>
             <img 
               className="rounded-full ml-5 w-20 h-20 drop-shadow" 
-              src="/src/images/dad_headshot.jpeg" 
+              src="/images/dad_headshot.jpeg" 
               alt="dr_peter_may"/>
           </div>
           
