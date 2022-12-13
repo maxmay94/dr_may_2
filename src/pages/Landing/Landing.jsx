@@ -59,17 +59,28 @@ const Landing = () => {
         <div className="h-[1px]">
         </div>
         <div className="bg-slate-900/20 backdrop-blur-[3px] backdrop-grayscale p-3 m-10 w-fit ">
-          <p className="font-black lg:text-6xl md:text-5xl sm:text-4xl text-2xl">
-            {/* MY NECK. <br /> 
-            MY BACK. <br />
-            MY CHIROPRACTOR. <br />
-            FIXED WITH CRACK. */}
-            LET ME <br />
-            CRACK <br />
-            YOU UP
-          </p>
+          <div className="flex">
+            <p className=" grow font-black lg:text-6xl md:text-5xl sm:text-4xl text-2xl">
+              {/* MY NECK. <br /> 
+              MY BACK. <br />
+              MY CHIROPRACTOR. <br />
+              FIXED WITH CRACK. */}
+              LET ME <br />
+              CRACK <br />
+              YOU UP
+            </p>
+            <div className="px-3">
+              <img
+                className="rounded-full md:h-40 h-24"
+                src="src/images/peter_may.jpeg" 
+                alt="peter_may" 
+              />
+          </div>
+          </div>
           <p className="py-5 pr-5 font-bold">
-            Book an appointment today! <br /> You can reach me at (413) 664-9050 or docmay@gmail.com
+            Book an appointment today! <br /> 
+            You can reach me at (413) 664-9050 or docmay@gmail.com <br />
+            My office conveniently is located at 73 Chucrch Street in downtown North Adams
           </p>
         </div>
       </div>
