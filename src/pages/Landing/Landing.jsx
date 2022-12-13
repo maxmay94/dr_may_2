@@ -29,11 +29,27 @@ const Landing = () => {
       </div>
 
       {/* ----- ABOUT? ----- */}
-      <div className="bg-slate-900 h-screen w-screen pt-[64px]">
+      <div className="bg-slate-900 w-screen pt-[64px]">
         <div className="h-[1px] ">
         </div>
         <div className="text-6xl font-black m-10">
-          This is a sentence about some stuff!
+          Proudly serving the North Adams community for over 25 years!
+          <p className="text-xl md:p-10 py-10">
+            In my 36+ years as a chiropractor I have helped 1000&#39;s of patients in our community
+            with problems ranging from routine neck and back pain, to “pinched nerves”, headaches, a
+            variety of arm-shoulder-wrist pain and hip-knee-ankle-foot pain, and more. Every
+            complaint is unique to the individual. I will do everything I can to help you. Most importantly, I
+            will give you excellent advice and home instructions on how to help yourself get better faster.
+            And, if you are interested, I will go beyond that and give you vitally important information,
+            instruction, and advice on how to improve your overall health.
+          </p>
+          <img 
+            src="src/images/office_cover_photo.jpeg" 
+            alt="office_photo" 
+            className="lg:px-10"  
+          />
+        </div>
+        <div className="h-20">
         </div>
       </div>
       
@@ -52,8 +68,8 @@ const Landing = () => {
             CRACK <br />
             YOU UP
           </p>
-          <p className="pt-5">
-            Whether you are seeking relief from everyday aches and pains or looking to maintain a healthy, active life, we can help.
+          <p className="py-5 pr-5 font-bold">
+            Book an appointment today! <br /> You can reach me at (413) 664-9050 or docmay@gmail.com
           </p>
         </div>
       </div>
