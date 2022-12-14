@@ -72,7 +72,7 @@ const Landing = () => {
               FIXED WITH CRACK. */}
               LET ME <br />
               CRACK <br />
-              YOU UP
+              YOU UP.
             </p>
             <div className="px-3">
               <img
@@ -92,14 +92,14 @@ const Landing = () => {
       </div>
 
       {/* ----- FAQ ----- */}
-      <div className="bg-red-900 w-screen pt-[64px]">
+      <div className="bg-lime-800/70 w-screen pt-[64px]">
         <div className="h-[1px]">
         </div>
 
         <div className="text-6xl font-black sm:text-center sm:m-10">
           Frequently Asked Questions.
         </div>
-        <div className="sm:w-3/4 md:text-base text-sm bg-pink-600/40 rounded-sm p-5 mx-auto">
+        <div className="sm:w-3/4 md:text-base text-sm bg-emerald-600/40 rounded-sm p-5 mx-auto">
           {/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */}
 
           {/* QUESTION */}
@@ -108,7 +108,7 @@ const Landing = () => {
               className="rounded-full mr-5 w-20 h-20 drop-shadow" 
               src="/images/question.jpeg" 
               alt="question" />
-            <div className="bg-red-900 text-gray-300 m-1 my-auto p-2 drop-shadow rounded">
+            <div className="bg-slate-900 text-gray-300 m-1 my-auto p-2 drop-shadow rounded">
               Are you taking new patients? And how far out are you booking?
             </div>
           </div>
@@ -131,7 +131,7 @@ const Landing = () => {
               className="rounded-full mr-5 w-20 h-20 drop-shadow" 
               src="/images/question.jpeg" 
               alt="question" />
-            <div className="bg-red-900 text-gray-300 m-1 my-auto p-2 drop-shadow rounded">
+            <div className="bg-slate-900 text-gray-300 m-1 my-auto p-2 drop-shadow rounded">
               Do you take my health insurance?
             </div>
           </div>
@@ -163,7 +163,7 @@ const Landing = () => {
               className="rounded-full mr-5 w-20 h-20 drop-shadow" 
               src="/images/question.jpeg" 
               alt="question" />
-            <div className="bg-red-900 text-gray-300 m-1 my-auto p-2 drop-shadow rounded">
+            <div className="bg-slate-900 text-gray-300 m-1 my-auto p-2 drop-shadow rounded">
               How much is a visit?
             </div>
           </div>
@@ -207,7 +207,7 @@ const Landing = () => {
       </div>
 
       {/* ----- INFO? ----- */}
-      <div className="bg-orange-900 w-screen">
+      <div className="bg-blue-900/40 w-screen">
         <div className="h-[1px] ">
         </div>
         <div className="text-center py-5 mb-[30px]">
