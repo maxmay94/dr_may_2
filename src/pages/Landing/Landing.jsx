@@ -4,7 +4,7 @@ const Landing = () => {
   let questionPic = "/images/question.jpeg"
   let dr_pic = "/images/dad_headshot.jpeg"
 
-  console.log('v1.2')
+  console.log('v1.3')
 
   return (
     <div className="absolute top-[64px]">
@@ -66,7 +66,7 @@ const Landing = () => {
       
 
       {/* ----- ABOUT ----- */}
-      <div className="bg-[url('dist/assets/x-ray_film_temp.jpeg')] bg-fixed bg-cover h-screen w-screen pt-[64px]">
+      <div className="bg-[url('../public/images/x-ray_film_temp.jpeg')] bg-fixed bg-cover h-screen w-screen pt-[64px]">
       {/* <div className=" bg-fixed bg-cover bg-x-ray-temp h-screen w-screen pt-[64px]"> */}
         <div className="h-[1px]">
         </div>
