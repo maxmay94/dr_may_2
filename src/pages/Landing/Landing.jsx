@@ -4,6 +4,8 @@ const Landing = () => {
   let questionPic = "/images/question.jpeg"
   let dr_pic = "/images/dad_headshot.jpeg"
 
+  console.log('v1.1')
+
   return (
     <div className="absolute top-[64px]">
       {/* ----- MAIN HEADER AREA ----- */}
@@ -24,7 +26,7 @@ const Landing = () => {
         </div>
       </div>
 
-      {/* ----- INFO? ----- */}
+      {/* ----- INFO ----- */}
       <div className="bg-emerald-900 w-screen">
         <div className="h-[1px] ">
         </div>
@@ -37,11 +39,11 @@ const Landing = () => {
         </div>
       </div>
 
-      {/* ----- ABOUT? ----- */}
+      {/* ----- ABOUT ----- */}
       <div className="bg-slate-900 w-screen pt-[64px]">
         <div className="h-[1px] ">
         </div>
-        <div className="text-6xl font-black m-10">
+        <div className="lg:text-6xl md:text-5xl text-3xl font-black m-10">
           Proudly serving the North Adams community for over 25 years!
           <p className="text-xl md:p-10 py-10">
             In my 36+ years as a chiropractor I have helped 1000&#39;s of patients in our community
@@ -63,12 +65,12 @@ const Landing = () => {
       </div>
       
 
-      {/* ----- TESITMONAL? ----- */}
+      {/* ----- ABOUT ----- */}
       {/* <div className="bg-[url('public/images/x-ray_film_temp.jpeg')] bg-fixed bg-cover h-screen w-screen pt-[64px]"> */}
       <div className=" bg-fixed bg-cover bg-x-ray-temp h-screen w-screen pt-[64px]">
         <div className="h-[1px]">
         </div>
-        <div className="bg-slate-900/20 backdrop-blur-[3px] backdrop-grayscale p-3 m-10 w-fit ">
+        <div className="bg-slate-900/20 backdrop-blur-[3px] backdrop-grayscale p-3 m-10 w-fit contrast-200">
           <div className="flex">
             <p className=" grow font-black lg:text-6xl md:text-5xl sm:text-4xl text-2xl">
               LET ME <br />
@@ -77,7 +79,7 @@ const Landing = () => {
             </p>
             <div className="px-3">
               <img
-                className="rounded-full md:h-40 h-24 drop-shadow-md"
+                className="rounded-full md:h-40 h-24 drop-shadow-md contrast-[.6]"
                 src="/images/peter_may.jpeg" 
                 alt="peter_may" 
               />
@@ -86,8 +88,8 @@ const Landing = () => {
           <p className="py-5 pr-5 font-bold w-2/3">
             Book an appointment today! <br /> 
             You can reach me at <br />
-            <span className="inline-block text-orange-600">(413) 664-9050</span> or 
-            <span className="text-orange-600"> docmay@gmail.com</span> <br />
+            <span className="inline-block text-orange-500">(413) 664-9050</span> or 
+            <span className="text-orange-500"> docmay@gmail.com</span> <br />
             My office conveniently is located at
             73 Church Street in downtown North Adams
           </p>
