@@ -2,8 +2,8 @@ const Landing = () => {
   return (
     <div className="absolute top-[64px]">
       {/* ----- MAIN HEADER AREA ----- */}
-      <div className="bg-fixed bg-top bg-[url('public/images/happy_people_temp.jpeg')] w-screen h-screen contrast-75">
-      {/* <div className="bg-fixed bg-top bg-happy-people-temp w-screen h-screen contrast-75"> */}
+      {/* <div className="bg-fixed bg-top bg-[url('public/images/happy_people_temp.jpeg')] w-screen h-screen contrast-75"> */}
+      <div className="bg-fixed bg-top bg-happy-people-temp w-screen h-screen contrast-75">
         <div className="h-[1px]">
         </div>
         <div className="bg-slate-900/60 backdrop-blur-[3px] backdrop-grayscale p-3 m-10 w-fit contrast-200">
@@ -59,8 +59,8 @@ const Landing = () => {
       
 
       {/* ----- TESITMONAL? ----- */}
-      <div className="bg-[url('public/images/x-ray_film_temp.jpeg')] bg-fixed bg-cover h-screen w-screen pt-[64px]">
-      {/* <div className=" bg-fixed bg-cover bg-x-ray-temp h-screen w-screen pt-[64px]"> */}
+      {/* <div className="bg-[url('public/images/x-ray_film_temp.jpeg')] bg-fixed bg-cover h-screen w-screen pt-[64px]"> */}
+      <div className=" bg-fixed bg-cover bg-x-ray-temp h-screen w-screen pt-[64px]">
         <div className="h-[1px]">
         </div>
         <div className="bg-slate-900/20 backdrop-blur-[3px] backdrop-grayscale p-3 m-10 w-fit ">
@@ -92,7 +92,7 @@ const Landing = () => {
       </div>
 
       {/* ----- FAQ ----- */}
-      <div className="bg-lime-800/70 w-screen pt-[64px]">
+      <div className="bg-emerald-800/70 w-screen pt-[64px]">
         <div className="h-[1px]">
         </div>
 
@@ -207,7 +207,7 @@ const Landing = () => {
       </div>
 
       {/* ----- INFO? ----- */}
-      <div className="bg-blue-900/40 w-screen">
+      <div className="bg-slate-900/40 w-screen">
         <div className="h-[1px] ">
         </div>
         <div className="text-center py-5 mb-[30px]">
