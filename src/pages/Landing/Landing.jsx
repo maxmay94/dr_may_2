@@ -1,6 +1,8 @@
 const Landing = () => {
   let question = "bg-slate-900 text-gray-300 m-1 my-auto p-2 drop-shadow rounded"
   let answer = "bg-slate-300 text-teal-900 m-1 my-auto p-2 drop-shadow rounded"
+  let questionPic = "/images/question.jpeg"
+  let dr_pic = "/images/dad_headshot.jpeg"
 
   return (
     <div className="absolute top-[64px]">
@@ -69,10 +71,6 @@ const Landing = () => {
         <div className="bg-slate-900/20 backdrop-blur-[3px] backdrop-grayscale p-3 m-10 w-fit ">
           <div className="flex">
             <p className=" grow font-black lg:text-6xl md:text-5xl sm:text-4xl text-2xl">
-              {/* MY NECK. <br /> 
-              MY BACK. <br />
-              MY CHIROPRACTOR. <br />
-              FIXED WITH CRACK. */}
               LET ME <br />
               CRACK <br />
               YOU UP.
@@ -80,16 +78,18 @@ const Landing = () => {
             <div className="px-3">
               <img
                 className="rounded-full md:h-40 h-24 drop-shadow-md"
-                // src="https://imgur.com/lhMRqZA" 
                 src="/images/peter_may.jpeg" 
                 alt="peter_may" 
               />
           </div>
           </div>
-          <p className="py-5 pr-5 font-bold">
+          <p className="py-5 pr-5 font-bold w-2/3">
             Book an appointment today! <br /> 
-            You can reach me at (413) 664-9050 or docmay@gmail.com <br />
-            My office conveniently is located at 73 Chucrch Street in downtown North Adams
+            You can reach me at <br />
+            <span className="inline-block text-orange-600">(413) 664-9050</span> or 
+            <span className="text-orange-600"> docmay@gmail.com</span> <br />
+            My office conveniently is located at
+            73 Church Street in downtown North Adams
           </p>
         </div>
       </div>
@@ -109,7 +109,7 @@ const Landing = () => {
           <div className="flex">
             <img 
               className="rounded-full mr-5 w-20 h-20 drop-shadow" 
-              src="/images/question.jpeg" 
+              src={questionPic}
               alt="question" />
             <div className={question}>
               Are you taking new patients? And how far out are you booking?
@@ -123,7 +123,7 @@ const Landing = () => {
             </div>
             <img 
               className="rounded-full ml-5 w-20 h-20 drop-shadow" 
-              src="/images/dad_headshot.jpeg" 
+              src={dr_pic}
               alt="dr_peter_may"/>
           </div>
           <br />
@@ -132,7 +132,7 @@ const Landing = () => {
           <div className="flex">
             <img 
               className="rounded-full mr-5 w-20 h-20 drop-shadow" 
-              src="/images/question.jpeg" 
+              src={questionPic}
               alt="question" />
             <div className={question}>
               Do you take my health insurance?
@@ -155,7 +155,7 @@ const Landing = () => {
             </div>
             <img 
               className="rounded-full ml-5 w-20 h-20 drop-shadow" 
-              src="/images/dad_headshot.jpeg" 
+              src={dr_pic} 
               alt="dr_peter_may"/>
           </div>
           <br />
@@ -164,7 +164,7 @@ const Landing = () => {
           <div className="flex">
             <img 
               className="rounded-full mr-5 w-20 h-20 drop-shadow" 
-              src="/images/question.jpeg" 
+              src={questionPic} 
               alt="question" />
             <div className={question}>
               How much is a visit?
@@ -181,7 +181,7 @@ const Landing = () => {
             </div>
             <img 
               className="rounded-full ml-5 w-20 h-20 drop-shadow" 
-              src="/images/dad_headshot.jpeg" 
+              src={dr_pic} 
               alt="dr_peter_may"/>
           </div>
           <div className="flex mt-2">
@@ -196,20 +196,15 @@ const Landing = () => {
             </div>
             <img 
               className="rounded-full ml-5 w-20 h-20 drop-shadow" 
-              src="/images/dad_headshot.jpeg" 
+              src={dr_pic}
               alt="dr_peter_may"/>
           </div>
           
           <br />
-
-
-
-        </div>
-        <div className="sm:h-20">
         </div>
       </div>
 
-      {/* ----- INFO? ----- */}
+      {/* ----- INFO ----- */}
       <div className="bg-slate-900/90 w-screen">
         <div className="h-[1px] ">
         </div>
