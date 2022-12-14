@@ -14,7 +14,7 @@ const Landing = () => {
           </p>
           <p className="pt-5 font-bold">
             Whether you are seeking relief from everyday aches and pains <br />
-            or looking to maintain a healthy, active life, we can help.
+            or looking to maintain a healthy, active life, Dr. May can help.
           </p>
         </div>
       </div>
@@ -202,7 +202,7 @@ const Landing = () => {
 
 
         </div>
-        <div className="h-20">
+        <div className="sm:h-20">
         </div>
       </div>
 

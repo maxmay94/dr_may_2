@@ -14,7 +14,7 @@ const Footer = () => {
             </li>
 
             <li className="grow m-2">
-              <div className="text-xs text-sky-900">
+              <div className="text-xs text-sky-900 sm:visible invisible">
                 73 Church Street, North Adams, MA 01247
               </div>
             </li>
