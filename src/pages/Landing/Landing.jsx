@@ -4,8 +4,6 @@ const Landing = () => {
   let questionPic = "/images/question.jpeg"
   let dr_pic = "/images/dad_headshot.jpeg"
 
-  console.log('v1.4')
-
   return (
     <div className="absolute top-[64px]">
       {/* ----- MAIN HEADER AREA ----- */}
@@ -45,7 +43,7 @@ const Landing = () => {
         </div>
         <div className="lg:text-6xl md:text-5xl text-3xl font-black m-10">
           Proudly serving the North Adams community for over 25 years!
-          <p className="text-xl md:p-10 py-10">
+          <p className="md:text-xl text-base md:p-10 py-10">
             In my 36+ years as a chiropractor I have helped 1000&#39;s of patients in our community
             with problems ranging from routine neck and back pain, to “pinched nerves”, headaches, a
             variety of arm-shoulder-wrist pain and hip-knee-ankle-foot pain, and more. Every
