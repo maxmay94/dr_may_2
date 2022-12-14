@@ -17,7 +17,7 @@ const Landing = () => {
             PAIN CONTROL <br /> 
             YOUR LIFE.
           </p>
-          <p className="pt-5 font-bold">
+          <p className="pt-5 lg:text-2xl md:text-xl text-base font-bold">
             Whether you are seeking relief from everyday aches and pains <br />
             or looking to maintain a healthy, active life, Dr. May can help.
           </p>
