@@ -10,7 +10,7 @@ const Landing = () => {
         <div className="h-[1px]">
         </div>
         <div className="bg-slate-900/60 backdrop-blur-[3px] backdrop-grayscale p-3 m-10 w-fit contrast-200">
-          <p className="font-black text-6xl">
+          <p className="font-black lg:text-8xl md:text-6xl sm:text-4xl text-3xl">
             DON'T LET <br /> 
             PAIN CONTROL <br /> 
             YOUR LIFE.
@@ -79,7 +79,7 @@ const Landing = () => {
             </p>
             <div className="px-3">
               <img
-                className="rounded-full md:h-40 h-24"
+                className="rounded-full md:h-40 h-24 drop-shadow-md"
                 // src="https://imgur.com/lhMRqZA" 
                 src="/images/peter_may.jpeg" 
                 alt="peter_may" 
