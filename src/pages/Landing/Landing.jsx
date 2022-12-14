@@ -110,7 +110,7 @@ const Landing = () => {
           {/* QUESTION */}
           <div className="flex">
             <img 
-              className="rounded-full mr-5 w-20 h-20 drop-shadow" 
+              className="rounded-full mr-5 md:w-20 md:h-20 h-12 drop-shadow" 
               src={questionPic}
               alt="question" />
             <div className={question}>
@@ -124,7 +124,7 @@ const Landing = () => {
               their call. Sometimes, the same day. My hours are, by appointment.
             </div>
             <img 
-              className="rounded-full ml-5 w-20 h-20 drop-shadow" 
+              className="rounded-full ml-5 md:w-20 md:h-20 h-12 drop-shadow" 
               src={dr_pic}
               alt="dr_peter_may"/>
           </div>
@@ -133,7 +133,7 @@ const Landing = () => {
           {/* QUESTION */}
           <div className="flex">
             <img 
-              className="rounded-full mr-5 w-20 h-20 drop-shadow" 
+              className="rounded-full mr-5 md:w-20 md:h-20 h-12 drop-shadow" 
               src={questionPic}
               alt="question" />
             <div className={question}>
@@ -156,7 +156,7 @@ const Landing = () => {
               health as, or more, important?
             </div>
             <img 
-              className="rounded-full ml-5 w-20 h-20 drop-shadow" 
+              className="rounded-full ml-5 md:w-20 md:h-20 h-12 drop-shadow" 
               src={dr_pic} 
               alt="dr_peter_may"/>
           </div>
@@ -165,7 +165,7 @@ const Landing = () => {
           {/* QUESTION */}
           <div className="flex">
             <img 
-              className="rounded-full mr-5 w-20 h-20 drop-shadow" 
+              className="rounded-full mr-5 md:w-20 md:h-20 h-12 drop-shadow" 
               src={questionPic} 
               alt="question" />
             <div className={question}>
@@ -182,7 +182,7 @@ const Landing = () => {
               first visit. All of that takes about 1 hour. $125.00 Subsequent visits are $50.00
             </div>
             <img 
-              className="rounded-full ml-5 w-20 h-20 drop-shadow" 
+              className="rounded-full ml-5 md:w-20 md:h-20 h-12 drop-shadow" 
               src={dr_pic} 
               alt="dr_peter_may"/>
           </div>
@@ -197,7 +197,7 @@ const Landing = () => {
               probably cover the remaining 20%.
             </div>
             <img 
-              className="rounded-full ml-5 w-20 h-20 drop-shadow" 
+              className="rounded-full ml-5 md:w-20 md:h-20 h-12 drop-shadow" 
               src={dr_pic}
               alt="dr_peter_may"/>
           </div>
