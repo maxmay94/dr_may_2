@@ -1,4 +1,7 @@
 const Landing = () => {
+  let question = "bg-slate-900 text-gray-300 m-1 my-auto p-2 drop-shadow rounded"
+  let answer = "bg-slate-300 text-teal-900 m-1 my-auto p-2 drop-shadow rounded"
+
   return (
     <div className="absolute top-[64px]">
       {/* ----- MAIN HEADER AREA ----- */}
@@ -92,14 +95,14 @@ const Landing = () => {
       </div>
 
       {/* ----- FAQ ----- */}
-      <div className="bg-emerald-800/70 w-screen pt-[64px]">
+      <div className="bg-gradient-to-b from-emerald-800/70 to-slate-900/90 w-screen pt-[64px]">
         <div className="h-[1px]">
         </div>
 
         <div className="text-6xl font-black sm:text-center sm:m-10">
           Frequently Asked Questions.
         </div>
-        <div className="sm:w-3/4 md:text-base text-sm bg-emerald-600/40 rounded-sm p-5 mx-auto">
+        <div className="sm:w-3/4 md:text-base text-sm bg-emerald-700/40 rounded-sm p-5 mx-auto">
           {/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */}
 
           {/* QUESTION */}
@@ -108,13 +111,13 @@ const Landing = () => {
               className="rounded-full mr-5 w-20 h-20 drop-shadow" 
               src="/images/question.jpeg" 
               alt="question" />
-            <div className="bg-slate-900 text-gray-300 m-1 my-auto p-2 drop-shadow rounded">
+            <div className={question}>
               Are you taking new patients? And how far out are you booking?
             </div>
           </div>
           {/* ANSWER */}
-          <div className="flex mt-2">
-            <div className="bg-slate-300 text-teal-900 m-1 my-auto p-2 drop-shadow rounded">
+          <div className="lg:pl-60 flex mt-2">
+            <div className={answer}>
               Yes, I am accepting new patients. And, I can usually see them within a few days after
               their call. Sometimes, the same day. My hours are, by appointment.
             </div>
@@ -131,13 +134,13 @@ const Landing = () => {
               className="rounded-full mr-5 w-20 h-20 drop-shadow" 
               src="/images/question.jpeg" 
               alt="question" />
-            <div className="bg-slate-900 text-gray-300 m-1 my-auto p-2 drop-shadow rounded">
+            <div className={question}>
               Do you take my health insurance?
             </div>
           </div>
           {/* ANSWER */}
           <div className="flex mt-2">
-            <div className="bg-slate-300 text-teal-900 m-1 my-auto p-2 drop-shadow rounded">
+            <div className={answer}>
               Currently, I am only accepting BC/BS of Massachusetts and Medicare. I am not on
               other provider panels. You still have insurance. But, you will have to pay as you go, submit
               the claim yourself, and accept whatever they reimburse you. You will need to discuss this
@@ -163,13 +166,13 @@ const Landing = () => {
               className="rounded-full mr-5 w-20 h-20 drop-shadow" 
               src="/images/question.jpeg" 
               alt="question" />
-            <div className="bg-slate-900 text-gray-300 m-1 my-auto p-2 drop-shadow rounded">
+            <div className={question}>
               How much is a visit?
             </div>
           </div>
           {/* ANSWER */}
           <div className="flex mt-2">
-            <div className="bg-slate-300 text-teal-900 m-1 my-auto p-2 drop-shadow rounded">
+            <div className={answer}>
               On the initial office visit we go over the requisite paperwork. Then, we go into the room,
               do a history and exam. Based on that, I will give you a diagnosis that you will understand.
               Next, and most importantly, I will give you explicit verbal and written home instructions to
@@ -182,7 +185,7 @@ const Landing = () => {
               alt="dr_peter_may"/>
           </div>
           <div className="flex mt-2">
-            <div className="bg-slate-300 text-teal-900 m-1 my-auto p-2 drop-shadow rounded">
+            <div className={answer}>
               <div className="text-orange-700">
                 Note for Medicare patients:
               </div>
@@ -207,7 +210,7 @@ const Landing = () => {
       </div>
 
       {/* ----- INFO? ----- */}
-      <div className="bg-slate-900/40 w-screen">
+      <div className="bg-slate-900/90 w-screen">
         <div className="h-[1px] ">
         </div>
         <div className="text-center py-5 mb-[30px]">
