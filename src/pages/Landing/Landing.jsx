@@ -7,7 +7,7 @@ const Landing = () => {
   return (
     <div className="absolute top-[64px]">
       {/* ----- MAIN HEADER AREA ----- */}
-      <div className="bg-fixed bg-cover bg-top bg-jumping-woman w-screen h-screen contrast-75">
+      <div className="bg-fixed sm:bg-cover bg-top sm:bg-jumping-woman bg-happy-people-temp w-screen h-screen contrast-75">
         <div className="h-[1px]">
         </div>
         <div className="bg-slate-900/60 backdrop-blur-[3px] backdrop-grayscale p-3 m-10 w-fit contrast-200">
