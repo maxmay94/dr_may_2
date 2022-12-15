@@ -63,7 +63,7 @@ const Landing = () => {
       
 
       {/* ----- ABOUT ----- */}
-      <div className="bg-fixed sm:bg-cover bg-contain bg-center bg-x-ray-temp h-screen w-screen pt-[64px]">
+      <div className="sm:bg-fixed bg-cover bg-center bg-x-ray-temp h-screen w-screen pt-[64px]">
         <div className="h-[1px]">
         </div>
         <div className="bg-slate-900/20 backdrop-blur-[3px] backdrop-grayscale p-3 m-10 w-fit contrast-200">
