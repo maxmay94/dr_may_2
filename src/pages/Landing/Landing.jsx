@@ -2,7 +2,7 @@ const Landing = () => {
   let question = "bg-slate-900 text-gray-300 m-1 my-auto p-2 drop-shadow rounded"
   let answer = "bg-slate-300 text-teal-900 m-1 my-auto p-2 drop-shadow rounded"
   let questionPic = "/images/question.jpeg"
-  let dr_pic = "/images/dad_headshot.jpeg"
+  let dr_pic = "/images/dad_recent.jpeg"
 
   return (
     <div className="absolute top-[64px]">
@@ -78,7 +78,7 @@ const Landing = () => {
             <div className="px-3">
               <img
                 className="rounded-full md:h-40 h-24 drop-shadow-md contrast-[.6]"
-                src="/images/peter_may.jpeg" 
+                src="/images/dad_recent.jpeg" 
                 alt="peter_may" 
               />
           </div>
