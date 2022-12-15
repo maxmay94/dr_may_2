@@ -42,7 +42,7 @@ const Landing = () => {
         <div className="h-[1px] ">
         </div>
         <div className="lg:text-6xl md:text-5xl text-3xl font-black m-10">
-          Proudly cracking necks and cashing checks in the North Adams community for over 25 years!
+          Proudly <span className="animate-pulse text-amber-500">cracking necks and cashing checks</span> in the North Adams community for over 25 years!
           <p className="md:text-xl text-base md:p-10 py-10">
             In my 36+ years as a chiropractor I have helped 1000&#39;s of patients in our community
             with problems ranging from routine neck and back pain, to “pinched nerves”, headaches, a
