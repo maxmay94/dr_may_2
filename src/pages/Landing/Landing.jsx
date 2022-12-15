@@ -7,7 +7,6 @@ const Landing = () => {
   return (
     <div className="absolute top-[64px]">
       {/* ----- MAIN HEADER AREA ----- */}
-      {/* <div className="bg-fixed bg-top bg-[url('public/images/happy_people_temp.jpeg')] w-screen h-screen contrast-75"> */}
       <div className="bg-fixed bg-top bg-happy-people-temp w-screen h-screen contrast-75">
         <div className="h-[1px]">
         </div>
@@ -64,8 +63,7 @@ const Landing = () => {
       
 
       {/* ----- ABOUT ----- */}
-      {/* <div className="bg-[url('../public/images/x-ray_film_temp.jpeg')] bg-fixed bg-cover h-screen w-screen pt-[64px]"> */}
-      <div className=" bg-fixed bg-cover sm:bg-center bg-left-top bg-x-ray-temp h-screen w-screen pt-[64px]">
+      <div className="bg-fixed sm:bg-cover bg-contain bg-center bg-x-ray-temp h-screen w-screen pt-[64px]">
         <div className="h-[1px]">
         </div>
         <div className="bg-slate-900/20 backdrop-blur-[3px] backdrop-grayscale p-3 m-10 w-fit contrast-200">
