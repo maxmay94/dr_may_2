@@ -2,7 +2,7 @@ const Question = ({question}) => {
   let questionPic = "/images/question.jpeg"
   return (
     <>
-      <div className="flex">
+      <div className="flex pr-5">
         <img 
           className="rounded-full mr-5 md:w-20 md:h-20 h-12 drop-shadow" 
           src={questionPic}
