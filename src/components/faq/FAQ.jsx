@@ -6,14 +6,14 @@ const FAQ = () => {
   
   return (
     <>
-      <div className="bg-gradient-to-b from-emerald-800/70 to-slate-900/90 w-screen pt-[64px]">
+      <div className="bg-gradient-to-b from-emerald-800/70 to-slate-900/90  w-screen pt-[64px]">
         <div className="h-[1px]">
         </div>
 
         <div className="text-6xl font-black sm:text-center sm:m-10">
           Frequently Asked Questions.
         </div>
-        <div className="sm:w-3/4 md:text-base text-sm bg-emerald-700/40 rounded-sm p-5 mx-auto">
+        <div className="md:w-3/4 md:text-base text-sm md:bg-emerald-700/30  rounded-sm p-5 mx-auto">
           {/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */}
 
           {/* QUESTION */}
