@@ -1,7 +1,7 @@
 const MainHeader = () => {
   return (
     <>
-      <div className="bg-fixed sm:bg-cover bg-[length:950px_700px] sm:bg-center bg-top bg-people-running w-screen h-screen contrast-75">
+      <div className="bg-fixed md:bg-cover bg-[length:1250px_1000px] bg-center bg-people-running w-screen h-screen contrast-75">
         <div className="h-[1px]">
         </div>
         <div className="bg-slate-900/60 backdrop-blur-[3px] backdrop-grayscale p-3 m-10 w-fit contrast-200">
