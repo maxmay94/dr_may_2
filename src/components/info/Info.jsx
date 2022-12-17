@@ -24,7 +24,7 @@ const Info = () => {
             You can reach me at <br />
             <span className="inline-block text-orange-500">(413) 664-9050</span> or 
             <span className="text-orange-500"> docmay@gmail.com</span> <br />
-            My office conveniently is located at
+            My office is conveniently located at
             73 Church Street in downtown North Adams
           </p>
         </div>
