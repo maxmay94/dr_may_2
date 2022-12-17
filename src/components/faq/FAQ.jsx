@@ -2,11 +2,6 @@ import Question from "../question/Question"
 import Answer from "../answer/Answer"
 
 const FAQ = () => {
-  let question = "bg-slate-900 text-gray-300 m-1 my-auto p-2 drop-shadow rounded"
-  let answer = "bg-slate-300 text-teal-900 m-1 my-auto p-2 drop-shadow rounded"
-  let questionPic = "/images/question.jpeg"
-  let dr_pic = "/images/dad_recent.jpeg"
-  
   return (
     <>
       <div className="bg-gradient-to-b from-emerald-800/70 to-slate-900/90  w-screen pt-[64px]">
