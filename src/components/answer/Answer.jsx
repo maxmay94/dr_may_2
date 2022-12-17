@@ -1,5 +1,4 @@
 const Answer = ({answer, note, size}) => {
-  let dr_pic = "/images/dad_recent.jpeg"
   return (
     <>
       <div className={size ? 'flex mt-2 lg:pl-40 pl-5' : 'flex mt-2 pl-5'}>
@@ -13,7 +12,7 @@ const Answer = ({answer, note, size}) => {
         </div>
         <img 
           className="rounded-full ml-5 md:w-20 md:h-20 h-12 drop-shadow" 
-          src={dr_pic}
+          src="/images/dad_recent.jpeg"
           alt="dr_peter_may"/>
       </div>
     </>
