@@ -12,7 +12,7 @@ const MainHeader = () => {
           </p>
           <p className="pt-5 lg:text-2xl md:text-xl text-base font-bold">
             Say goodbye to everyday aches and pains. <br />
-            Dr. May is here to help you live healthier more active lifestyle.
+            Dr. May is here to help you liv a healthier, more active lifestyle.
           </p>
         </div>
       </div>
