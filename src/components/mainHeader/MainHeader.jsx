@@ -11,8 +11,8 @@ const MainHeader = () => {
             YOUR LIFE.
           </p>
           <p className="pt-5 lg:text-2xl md:text-xl text-base font-bold">
-            Whether you are seeking relief from everyday aches and pains <br />
-            or looking to maintain a healthy, active life, Dr. May can help.
+            Say goodbye to everyday aches and pains. <br />
+            Dr. May is here to help you live healthier more active lifestyle.
           </p>
         </div>
       </div>
