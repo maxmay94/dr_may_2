@@ -11,7 +11,8 @@ module.exports = {
       backgroundImage: {
         'people-running' : "url('../images/people_running.jpeg')",
         'x-ray' : "url('../images/x-ray_film.jpeg')",
-        'spine' : "url('../images/spine.jpeg')"
+        'spine' : "url('../images/spine.jpeg')",
+        'mountain-top' : "url('../images/mountain_top.jpeg')"
       }
     },
   },
