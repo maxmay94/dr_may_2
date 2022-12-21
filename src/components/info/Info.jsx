@@ -1,7 +1,7 @@
 const Info = () => {
   return (
     <>
-      <div className="bg-fixed sm:bg-cover bg-[length:1250px_1000px] bg-bottom bg-spine h-screen w-screen pt-[64px]">
+      <div className="bg-fixed sm:bg-cover bg-[length:1250px_1000px] sm:bg-bottom bg-center bg-spine h-screen w-screen pt-[64px]">
         <div className="h-[1px]">
         </div>
         <div className="bg-slate-900/50 backdrop-blur-[3px] backdrop-grayscale p-3 m-10 w-fit contrast-200 text-slate-200">
