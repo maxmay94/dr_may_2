@@ -8,7 +8,7 @@ const FAQ = () => {
         <div className="h-[1px]">
         </div>
 
-        <div className="text-6xl font-black sm:text-center sm:m-10">
+        <div className="text-6xl font-black sm:text-center sm:m-10 text-slate-200">
           Frequently Asked Questions.
         </div>
         <div className="md:w-3/4 md:text-base text-sm md:bg-emerald-700/30  rounded-sm p-5 mx-auto">
