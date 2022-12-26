@@ -10,7 +10,8 @@ module.exports = {
       },
       backgroundImage: {
         'spine' : "url('../images/spine.jpeg')",
-        'mountain-top' : "url('../images/mountain_top.jpeg')"
+        'mountain-top' : "url('../images/mountain_top.jpeg')",
+        'woods-walk' : "url('../images/walking_in_woods.jpeg')"
       }
     },
   },
