@@ -1,7 +1,7 @@
 const MainHeader = () => {
   return (
     <>
-      <div className="bg-fixed sm:bg-cover bg-[length:900px_900px] bg-woods-walk bg-bottom w-screen h-screen contrast-75">
+      <div className="bg-fixed sm:bg-cover bg-[length:1000px_1000px] bg-woods-walk bg-bottom w-screen h-screen contrast-75">
         {/* bg-[length:1400px_900px] */}
         <div className="h-[1px]">
         </div>
