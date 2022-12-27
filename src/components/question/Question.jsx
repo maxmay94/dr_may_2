@@ -7,7 +7,7 @@ const Question = ({question}) => {
           src="/images/question.jpeg"
           alt="question" 
         />
-        <div className="bg-slate-900 text-gray-300 m-1 my-auto lg:text-xl p-2 drop-shadow rounded">
+        <div className="bg-slate-900 text-gray-300 m-1 my-auto p-2 drop-shadow rounded">
           {question}
         </div>
       </div>
