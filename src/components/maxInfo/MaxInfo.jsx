@@ -3,7 +3,7 @@ const MaxInfo = () => {
     <>
       {/* ----- INFO ----- */}
       <div className='bg-slate-900/90 text-xs p-5 text-center'>
-        Website created and designed by Maximillian May
+        Developed and designed by Maximillian May
         <br />
         <a href="https://www.linkedin.com/in/maximillian-may/" target="_blank">Let's connect on LinkedIn!</a>
       </div>
