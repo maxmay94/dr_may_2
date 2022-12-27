@@ -11,7 +11,7 @@ const FAQ = () => {
         <div className="text-6xl font-black sm:text-center sm:m-10 text-slate-200">
           Frequently Asked Questions.
         </div>
-        <div className="md:w-3/4 lg:text-lg md:text-base text-sm md:bg-emerald-700/30  rounded-sm p-5 mx-auto">
+        <div className="md:w-3/4 lg:text-lg md:text-base text-sm md:bg-emerald-700/30 rounded-sm md:p-5 p-2 pt-5 mx-auto">
 
           <Question question={'Are you taking new patients? And how far out are you booking?'}/>
           <Answer size={true} answer={'Yes, I am accepting new patients. And, I can usually see them within a few days after their call. Sometimes, the same day. My hours are, by appointment.'} />
